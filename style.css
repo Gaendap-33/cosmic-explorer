@@ -304,3 +304,25 @@ body > button:hover {
     color: white;
     transform: translateY(-3px);
 }
+/* EXPLORE BUTTON */
+
+.explore-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 30px;
+
+    background: #829aff;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 30px;
+
+    font-weight: bold;
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    transform: scale(1.08);
+}

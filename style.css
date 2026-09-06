@@ -114,10 +114,10 @@ section p {
 
     transition: 0.3s;
 }
-
 .card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-8px) scale(1.03);
     border-color: #829aff;
+    box-shadow: 0 0 25px rgba(130, 154, 255, 0.5);
 }
 
 .card h3 {

@@ -280,3 +280,27 @@ body::before {
     color: white;
     transform: scale(1.05);
 }
+/* BACK TO TOP BUTTON */
+
+body > button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+
+    background: #101735;
+    color: #829aff;
+
+    border: 1px solid #829aff;
+    border-radius: 25px;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+body > button:hover {
+    background: #829aff;
+    color: white;
+    transform: translateY(-3px);
+}

@@ -256,3 +256,27 @@ body::before {
         opacity: 0;
     }
 }
+/* PLANET BUTTON */
+
+.card button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+
+    background: transparent;
+    color: #829aff;
+
+    border: 1px solid #829aff;
+    border-radius: 20px;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #829aff;
+    color: white;
+    transform: scale(1.05);
+}

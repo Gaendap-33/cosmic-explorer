@@ -326,3 +326,20 @@ body > button:hover {
 .explore-button:hover {
     transform: scale(1.08);
 }
+/* DID YOU KNOW BOX */
+
+.did-you-know {
+    margin: 30px auto 0;
+    padding: 20px;
+
+    max-width: 600px;
+
+    background: #101735;
+    border: 1px solid #829aff;
+    border-radius: 20px;
+
+    text-align: center;
+    color: #cbd3ef;
+
+    box-shadow: 0 0 20px rgba(130, 154, 255, 0.2);
+}

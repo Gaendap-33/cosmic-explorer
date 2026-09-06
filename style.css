@@ -216,3 +216,12 @@ footer {
     color: #cbd3ef;
     font-size: 18px;
 }
+/* STAR BACKGROUND */
+
+body {
+    background:
+        radial-gradient(circle at 20% 20%, #18245c 0%, transparent 2%),
+        radial-gradient(circle at 80% 30%, #18245c 0%, transparent 2%),
+        radial-gradient(circle at 40% 70%, #18245c 0%, transparent 2%),
+        #050816;
+}

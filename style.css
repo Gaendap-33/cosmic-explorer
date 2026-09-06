@@ -186,3 +186,33 @@ footer {
         font-size: 28px;
     }
 }
+/* SPACE FACT BUTTON */
+
+#facts button {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 25px;
+
+    background: #829aff;
+    color: white;
+
+    border: none;
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+#facts button:hover {
+    transform: scale(1.05);
+}
+
+#spaceFact {
+    margin-bottom: 30px;
+    color: #cbd3ef;
+    font-size: 18px;
+}
